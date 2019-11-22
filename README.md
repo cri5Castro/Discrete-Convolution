@@ -6,8 +6,13 @@ Helper Module  to apply convolution over discrete sequences.
 ```bash
 python -m controller <command> <signals>*
 ``` 
-TODO
-Arg parse handling
+### Options:
+- convolution (conv)  convolve two discrete signals:
+                        < signalA -> collections.OrderedDict > 
+                        < signalB -> collections.OrderedDict >
+                        and outputs the convolved signal
+    
+- plot (plt, p)       plot a set of discrete signals <signal0> <signal1> ... <signaln> represented as python dictionaries
 
 **Requeriments**
 - numpy
